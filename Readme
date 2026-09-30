@@ -57,3 +57,5 @@ npm install allure-commandline --save-dev
 
 #### lance test
 npx wdio run wdio.conf.js
+
+npx wdio wdio.conf.js --spec test/specs/test.js
