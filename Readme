@@ -59,3 +59,8 @@ npm install allure-commandline --save-dev
 npx wdio run wdio.conf.js
 
 npx wdio wdio.conf.js --spec test/specs/test.js
+
+
+npx wdio wdio.conf.js --mochaOpts.grep "@smok" /// you need to add [tag] in it description
+
+allure generate allure-results --clean -o allure-report
